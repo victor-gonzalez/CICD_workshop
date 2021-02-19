@@ -6,4 +6,9 @@ jobs:
     steps:
       - name: <first job>
         run: echo hello world
+  compilecode:
+    runs-on: ubuntu-latest
+    steps:
+      - name: <make job>
+        run: skim.sh
 
