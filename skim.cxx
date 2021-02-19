@@ -1,11 +1,13 @@
 #include "skim.h"
-using std::out;
+
+using std::cout;
 using std::endl;
 
-void main()
+int main()
 {
   TString mystring = "hello workd";
 
-  out << mystring << endl;
+  cout << mystring << endl;
+  return 0;
 }
   
