@@ -14,4 +14,13 @@ jobs:
         uses: actions/checkout@v2
       - name: <make job>
         run: ./skim.sh
+  compilecode_latest:
+    runs-on: ubuntu-latest
+    container: rootproject/root-conda:latest
+    steps:
+      - name: checkout-repository
+        uses: actions/checkout@v2
+      - name: <make_latest job>
+        run: ./skim.sh
+
 
